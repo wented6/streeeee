@@ -39,7 +39,7 @@ client.on('ready', () => {
 
 if (message.content.startsWith('Ws')) {
   client.user.setGame(argresult, "https://www.twitch.tv/MeeRcY");
-  client.user.setStatus("idle")
+  client.user.setStatus("228139766573432832")
    message.channel.send(`${argresult} \` `)
 }
 });
